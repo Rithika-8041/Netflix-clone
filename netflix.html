@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My website</title>
+<meta charset ="utf-8">
+
+<style>
+h1{
+text-align: center;
+color: white;
+font-size: 120px;
+text-shadow: 2px 2px 4px #111;
+}
+.hero-image{
+    width: 60%;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.small-button{
+    width: 90%;
+    height: 50px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+p{
+text-align: center;
+color: white;
+}
+body{
+    text-align: center;
+    color: white;
+    background: linear-gradient(to left,darkred,black, darkred,black,black,darkred,black,darkred);
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+.card{
+    background-color: #111;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+    padding-bottom: 15px;
+}
+.card-image{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+     border-radius: 20px 20px 0 0;
+}
+.card:hover{
+    transform: translateY(-25px);
+}
+</style>
+</head>
+<body>
+<h1> NETFLIX </h1>
+<img class="hero-image" src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1000" alt="Netflix">
+<h2>Watch Movies & TV Shows Online</h2>
+<div class="card-container">
+  <div class="card">
+    <img class="card-image" src="https://img.newsbricks.com/news-images/2026/05/newsart6951/karuppu-movie-review-poster-6951.webp" alt="Karuppu">
+    <h3>Karuppu</h3>
+    <h4>IMDB Rating:9.0</h4>
+    <button class="small-button">Watch Now</button>
+  </div>
+  <div class="card">
+    <img class="card-image" src="https://cf-img-a-in.tosshub.com/sites/visualstory/wp/2023/10/Leo-poster-1.jpg?size=*:900" alt="Leo">
+    <h3>Leo</h3>
+    <h4>IMDB Rating: 7.2</h4>
+    <button class="small-button">Watch Now</button>
+</div>
+
+<div class="card">
+    <img class="card-image" src="https://m.media-amazon.com/images/M/MV5BNDEyMWQ0ZDktNTY0MC00YWRkLWFlMjQtMDUxMjRlMDhmMmRlXkEyXkFqcGc@._V1_.jpg" alt="Vikram">
+    <h3>Vikram</h3>
+    <h4>IMDB Rating: 8.3</h4>
+    <button class="small-button">Watch Now</button>
+</div>
+
+<div class="card">
+    <img class="card-image" src="https://m.media-amazon.com/images/M/MV5BMjE5MzhjYmItMGFjNC00ODIxLWJkNjktYWMxYTU0ZTM3NGYzXkEyXkFqcGc@._V1_.jpg" alt="Jailer">
+    <h3>Jailer</h3>
+    <h4>IMDB Rating: 7.1</h4>
+    <button class="small-button">Watch Now</button>
+</div>
+</div>
+
+<div class="card-container">
+<div class="card">
+    <img class="card-image" src="https://upload.wikimedia.org/wikipedia/en/6/65/Thunivu_poster.jpg" alt="Thunivu">
+    <h3>Thunivu</h3>
+    <h4>IMDB Rating: 6.1</h4>
+    <button class="small-button">Watch Now</button>
+</div>
+
+<div class="card">
+    <img class="card-image" src="https://m.media-amazon.com/images/S/pv-target-images/29c55aa980639b2ff4cb59682b98b7b0ecf3c1c151fae56bdca5e03ef91165c1.jpg" alt="Good Night">
+    <h3>Good Night</h3>
+    <h4>IMDB Rating: 7.7</h4>
+    <button class="small-button">Watch Now</button>
+</div>
+
+<div class="card">
+    <img class="card-image" src="https://upload.wikimedia.org/wikipedia/en/9/91/Lubber_Pandhu.jpg" alt="Lubber Pandhu">
+    <h3>Lubber Pandhu</h3>
+    <h4>IMDB Rating: 8.0</h4>
+    <button class="small-button">Watch Now</button>
+</div>
+
+<div class="card">
+    <img class="card-image" src="https://m.media-amazon.com/images/M/MV5BNWZmNGE1NzItZWVhMi00NjdhLWE1OWYtNjUwMWRmMWQ4ZjJjXkEyXkFqcGc@._V1_.jpg" alt="Dragon">
+    <h3>Dragon</h3>
+    <h4>IMDB Rating: 8.1</h4>
+    <button class="small-button">Watch Now</button>
+</div>
+</div>
+<p>netflixmovies.com</p>
+</body>
+</html> 
